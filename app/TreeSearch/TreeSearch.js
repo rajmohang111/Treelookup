@@ -49,7 +49,7 @@ angular.module('myApp.TreeSearch', ['ngRoute'])
                             return;
                         } else {
 
-                            if (foundNumber == false) {
+                            if (foundNumber === false) {
                                 $scope.noResult = "No search result found";
                             } else {
                                 $scope.noResult = '';
@@ -71,7 +71,10 @@ angular.module('myApp.TreeSearch', ['ngRoute'])
         $scope.searchResult = '';
         foundNumber = false;
         nodesFrom = [];
-        nodeSearch(path);
+        if( $scope.searchText !== '') {
+            nodeSearch(path);
+        }
+        
     }
 
 }]);
