@@ -1,9 +1,9 @@
 ## `TreeLookup` — Breadth-first search using TreeLookup API
 
-user can enter number in the search field.
-application will use Treelookup API and breadth first search algorithm to find the path for the searched number.
-display the result below the search field.
-if path not found, it will display "No search result found" message
+* user can enter number in the search field.
+* application will use Treelookup API and breadth first search algorithm to find the path for the searched number.
+* display the result below the search field.
+* if path not found, it will display "No search result found" message
 
 ## Getting Started
 
