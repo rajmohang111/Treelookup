@@ -1,0 +1,21 @@
+<p>Breadth-first search using TreeLookup API.</p>
+<div class="container">
+	<div class="row" style="margin-top: 1%">
+        <div class="col-md-5">
+    		<div class="form-group">
+                <div class="icon-addon addon-lg">
+                    <input type="text" placeholder="Search" class="form-control" id="searchText" ng-model="searchText" ng-change="search()"  ng-model-options="{debounce: 250}">
+                    <label for="email" class="glyphicon glyphicon-search" rel="tooltip" title="email"></label>
+                </div>
+            </div>
+            <div class="search-results-wrapper">
+            	<p> 
+            		<span>{{searchResult}}</span>
+					<span>{{noResult}}</span>
+				</p>
+			</div>
+        </div>
+	</div>
+</div>
+
+
