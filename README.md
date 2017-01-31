@@ -1,9 +1,9 @@
-## `TreeLookup` — Breadth-first search using TreeLookup API.
+## `TreeLookup` — Breadth-first search using TreeLookup API
 
-###user can enter number in the search field.
-###application will use Treelookup API and breadth first search algorithm to find the path for the searched number.
-###display the result below the search field.
-###if path not found, it will display "No search result found" message
+user can enter number in the search field.
+application will use Treelookup API and breadth first search algorithm to find the path for the searched number.
+display the result below the search field.
+if path not found, it will display "No search result found" message
 
 ## Getting Started
 
@@ -75,22 +75,3 @@ e2e-tests/            --> end-to-end tests
   protractor-conf.js    --> Protractor config file
   scenarios.js          --> end-to-end scenarios to be run by Protractor
 ```
-
-
-
-
-[angularjs]: https://angularjs.org/
-[bower]: http://bower.io/
-[git]: https://git-scm.com/
-[http-server]: https://github.com/indexzero/http-server
-[jasmine]: https://jasmine.github.io/
-[jdk]: https://wikipedia.org/wiki/Java_Development_Kit
-[jdk-download]: http://www.oracle.com/technetwork/java/javase/downloads
-[karma]: https://karma-runner.github.io/
-[local-app-url]: http://localhost:8000/index.html
-[node]: https://nodejs.org/
-[npm]: https://www.npmjs.org/
-[protractor]: http://www.protractortest.org/
-[selenium]: http://docs.seleniumhq.org/
-[travis]: https://travis-ci.org/
-[travis-docs]: https://docs.travis-ci.com/user/getting-started
